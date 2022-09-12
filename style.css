@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.mainpage{
+    background-color: black;
+}
+.header{
+    padding: 0 30px;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header ul{
+    display: flex;
+    gap: 10px;
+}
+.header ul li{
+    list-style: none;
+}
+.header ul a{
+    color: white;
+    text-decoration: none;
+}
+.content{
+    background-color: blue;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+    padding: 50px;
+}
+.imgplaceholder{
+    width: 600px;
+    background-color: gray;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.left p {
+    margin-bottom: 30px;
+}
+.left button{
+    width: 80px;
+    height: 35px;
+    color: blanchedalmond;
+    background-color: black;
+    border: none;
+    border-radius: 12%;
+}
+h2{
+    margin-top: 30px;
+    text-align: center;
+}
+.imgcontainer{
+    display: flex;
+    margin: 30px;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+.card{
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.cardimg{
+    background-color: azure;
+    width: 50%;
+    height: 50%;
+}
+.quote{
+    background-color: rgb(202, 202, 202);
+    padding: 20px 300px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.quote p{
+    font-size: 20px;
+}
+.footer{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px;
+}
+.btncontainer{
+    padding: 30px 200px;
+}
+.ctacontainer{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+}
